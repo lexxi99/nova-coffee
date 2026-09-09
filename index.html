@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="NOVA Coffee Roasters — a fictional premium coffee shop concept created by ZeroWeb Studio."
+  />
+
+  <title>NOVA Coffee Roasters</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-noise"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="NOVA Coffee home">
+        <span class="brand-mark">✦</span>
+        <span class="brand-text">
+          NOVA
+          <small>COFFEE ROASTERS</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#visit">Visit</a>
+        <a href="#contact" class="nav-cta">Find your cup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">SMALL BATCH • BIG CHARACTER</p>
+
+          <h1>
+            Coffee worth
+            <span>slowing down for.</span>
+          </h1>
+
+          <p class="hero-description">
+            Thoughtfully roasted beans, warm spaces, and the kind of coffee
+            that makes five minutes feel like an hour.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="button button-primary">
+              Explore the menu
+              <span>↗</span>
+            </a>
+
+            <a href="#visit" class="text-link">
+              Visit NOVA
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <span class="hero-card-label">TODAY'S ROAST</span>
+
+          <div>
+            <h2>Solar Bloom</h2>
+            <p>Ethiopia • Natural Process</p>
+          </div>
+
+          <div class="tasting-notes">
+            <span>Peach</span>
+            <span>Honey</span>
+            <span>Cacao</span>
+          </div>
+
+          <div class="hero-card-bottom">
+            <span>250g</span>
+            <strong>€14.50</strong>
+          </div>
+        </div>
+      </div>
+
+      <a href="#menu" class="scroll-indicator" aria-label="Scroll to menu">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </a>
+    </section>
+
+    <section class="intro-section">
+      <div class="container intro-grid">
+        <div class="intro-number reveal">
+          <span>01</span>
+        </div>
+
+        <div class="intro-heading reveal">
+          <p class="eyebrow dark">OUR APPROACH</p>
+
+          <h2>
+            Good coffee doesn't
+            <em>need to be complicated.</em>
+          </h2>
+        </div>
+
+        <div class="intro-copy reveal delay-1">
+          <p>
+            We source expressive coffees from producers who care deeply about
+            their craft, then roast them in small batches to bring out what
+            makes each origin special.
+          </p>
+
+          <p>
+            No gimmicks. No rushed cups. Just coffee made with intention.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section">
+      <div class="container">
+        <div class="section-heading-row">
+          <div class="reveal">
+            <p class="eyebrow">HOUSE FAVORITES</p>
+            <h2>Your next usual.</h2>
+          </div>
+
+          <a href="#menu" class="text-link light reveal">
+            See full menu
+            <span>→</span>
+          </a>
+        </div>
+
+        <div class="featured-grid">
+          <article class="coffee-card reveal">
+            <div class="coffee-card-image image-one">
+              <span class="card-badge">BESTSELLER</span>
+            </div>
+
+            <div class="coffee-card-content">
+              <div>
+                <h3>Velvet Flat White</h3>
+                <p>Double espresso • silky milk</p>
+              </div>
+
+              <span class="price">€5.20</span>
+            </div>
+          </article>
+
+          <article class="coffee-card reveal delay-1">
+            <div class="coffee-card-image image-two">
+              <span class="card-badge">SEASONAL</span>
+            </div>
+
+            <div class="coffee-card-content">
+              <div>
+                <h3>Honey Cloud</h3>
+                <p>Espresso • oat milk • wildflower honey</p>
+              </div>
+
+              <span class="price">€5.90</span>
+            </div>
+          </article>
+
+          <article class="coffee-card reveal delay-2">
+            <div class="coffee-card-image image-three">
+              <span class="card-badge">HOUSE ROAST</span>
+            </div>
+
+            <div class="coffee-card-content">
+              <div>
+                <h3>NOVA Filter</h3>
+                <p>Rotating single origin • hand brewed</p>
+              </div>
+
+              <span class="price">€4.80</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="menu-header reveal">
+          <div>
+            <p class="eyebrow dark">THE MENU</p>
+            <h2>Pick your ritual.</h2>
+          </div>
+
+          <p>
+            Classics, seasonal favorites, and coffees brewed to showcase
+            everything great beans can be.
+          </p>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-column reveal">
+            <h3>ESPRESSO BAR</h3>
+
+            <div class="menu-item">
+              <div>
+                <strong>Espresso</strong>
+                <span>Double shot • house blend</span>
+              </div>
+              <span>€3.20</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Americano</strong>
+                <span>Espresso • filtered water</span>
+              </div>
+              <span>€3.80</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Cappuccino</strong>
+                <span>Espresso • steamed milk • foam</span>
+              </div>
+              <span>€4.80</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Flat White</strong>
+                <span>Double espresso • silky milk</span>
+              </div>
+              <span>€5.20</span>
+            </div>
+          </div>
+
+          <div class="menu-column reveal delay-1">
+            <h3>NOVA SPECIALS</h3>
+
+            <div class="menu-item">
+              <div>
+                <strong>Honey Cloud</strong>
+                <span>Espresso • oat milk • honey</span>
+              </div>
+              <span>€5.90</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Midnight Mocha</strong>
+                <span>Dark chocolate • espresso • milk</span>
+              </div>
+              <span>€6.10</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Orange Tonic</strong>
+                <span>Espresso • tonic • fresh orange</span>
+              </div>
+              <span>€5.80</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Solar Cold Brew</strong>
+                <span>18-hour cold brew • citrus cream</span>
+              </div>
+              <span>€5.60</span>
+            </div>
+          </div>
+
+          <div class="menu-column reveal delay-2">
+            <h3>BAKERY</h3>
+
+            <div class="menu-item">
+              <div>
+                <strong>Cardamom Bun</strong>
+                <span>Brown butter • pearl sugar</span>
+              </div>
+              <span>€4.20</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Almond Croissant</strong>
+                <span>Almond cream • toasted flakes</span>
+              </div>
+              <span>€4.80</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Chocolate Rye Cookie</strong>
+                <span>Dark chocolate • sea salt</span>
+              </div>
+              <span>€3.90</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <strong>Lemon Loaf</strong>
+                <span>Lemon glaze • vanilla</span>
+              </div>
+              <span>€4.10</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="menu-note">
+          Oat milk available at no extra charge. Ask us about allergens.
+        </p>
+      </div>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story-image reveal"></div>
+
+      <div class="story-content">
+        <div class="story-inner reveal delay-1">
+          <p class="eyebrow">BEHIND THE CUP</p>
+
+          <h2>
+            Made slowly.
+            <span>Shared freely.</span>
+          </h2>
+
+          <p>
+            NOVA started with one tiny roaster, a second-hand espresso machine,
+            and an unreasonable obsession with getting coffee just right.
+          </p>
+
+          <p>
+            Today, we still roast in small batches, know our regulars by name,
+            and believe the best cafés should feel less like businesses and
+            more like places you belong.
+          </p>
+
+          <div class="story-stats">
+            <div>
+              <strong>12</strong>
+              <span>Origins roasted</span>
+            </div>
+
+            <div>
+              <strong>04</strong>
+              <span>Years brewing</span>
+            </div>
+
+            <div>
+              <strong>∞</strong>
+              <span>Cups to come</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-wrap reveal">
+        <span class="quote-mark">“</span>
+
+        <blockquote>
+          The kind of café you enter for coffee and somehow leave two hours
+          later.
+        </blockquote>
+
+        <div class="quote-author">
+          <span class="quote-line"></span>
+          <span>Local Coffee Journal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-copy reveal">
+          <p class="eyebrow dark">COME SAY HI</p>
+
+          <h2>Your table is waiting.</h2>
+
+          <p class="visit-description">
+            Settle in, grab something warm, and stay as long as you like.
+          </p>
+
+          <div class="visit-details">
+            <div>
+              <span class="detail-label">LOCATION</span>
+              <p>
+                24 Aurora Street<br />
+                Helsinki, Finland
+              </p>
+            </div>
+
+            <div>
+              <span class="detail-label">WEEKDAYS</span>
+              <p>
+                Monday — Friday<br />
+                07:30 — 19:00
+              </p>
+            </div>
+
+            <div>
+              <span class="detail-label">WEEKENDS</span>
+              <p>
+                Saturday — Sunday<br />
+                09:00 — 18:00
+              </p>
+            </div>
+          </div>
+
+          <a href="#contact" class="button button-dark">
+            Plan your visit
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="visit-visual reveal delay-1">
+          <div class="map-card">
+            <div class="map-grid"></div>
+
+            <div class="map-road road-one"></div>
+            <div class="map-road road-two"></div>
+            <div class="map-road road-three"></div>
+
+            <div class="map-pin">
+              <span>✦</span>
+            </div>
+
+            <div class="map-label">
+              <strong>NOVA</strong>
+              <span>24 Aurora Street</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-wrap reveal">
+        <p class="eyebrow">YOUR NEXT CUP</p>
+
+        <h2>
+          Coffee tastes better
+          <span>when you're here.</span>
+        </h2>
+
+        <a href="mailto:hello@novacoffee.example" class="button button-light">
+          hello@novacoffee.example
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="footer-brand">
+          <span>✦</span>
+          NOVA
+        </a>
+
+        <p>
+          Small batch coffee.<br />
+          Big character.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <span>EXPLORE</span>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#visit">Visit</a>
+      </div>
+
+      <div class="footer-links">
+        <span>SOCIAL</span>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Pinterest</a>
+      </div>
+
+<div class="footer-credit">
+  <p>
+    <strong>Portfolio Concept</strong><br />
+    Designed &amp; developed by ZeroWeb Studio
+  </p>
+
+  <span>© <span id="year"></span> NOVA Coffee</span>
+</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
